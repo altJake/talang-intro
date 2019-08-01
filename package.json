@@ -1,0 +1,16 @@
+{
+  "name": "talang-intro",
+  "version": "1.0.0",
+  "description": "We Are Developers - Talang Introduction presentation",
+  "main": "deck.mdx",
+  "author": "Talon.One GmbH",
+  "license": "MIT",
+  "devDependencies": {
+    "@rebass/emotion": "^3.1.1",
+    "mdx-deck": "^2.5.1"
+  },
+  "scripts": {
+    "start": "mdx-deck deck.mdx -p 8989",
+    "build": "mdx-deck build deck.mdx"
+  }
+}
