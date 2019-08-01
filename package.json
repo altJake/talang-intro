@@ -1,12 +1,11 @@
 {
   "name": "talang-intro",
   "version": "1.0.0",
-  "description": "We Are Developers - Talang Introduction presentation",
+  "description": "We Are Developers - An Introduction to Talang",
   "main": "deck.mdx",
-  "author": "Talon.One GmbH",
+  "author": "Jakob Shimony",
   "license": "MIT",
   "devDependencies": {
-    "@rebass/emotion": "^3.1.1",
     "mdx-deck": "^2.5.1"
   },
   "scripts": {
