@@ -1,4 +1,5 @@
 import React from 'react'
+import future from '@mdx-deck/themes/future'
 
 const Provider = props => (
   <div>
@@ -36,6 +37,6 @@ const Provider = props => (
   </div>
 )
 
-export default {
-  Provider,
-}
+const theme = { ...future, Provider }
+
+export default theme
