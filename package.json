@@ -10,6 +10,6 @@
   },
   "scripts": {
     "start": "mdx-deck deck.mdx -p 8989",
-    "build": "mdx-deck build deck.mdx"
+    "build": "mdx-deck build deck.mdx --webpack webpack.dist.config.js"
   }
 }
